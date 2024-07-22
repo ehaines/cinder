@@ -1,17 +1,17 @@
 ﻿using Ardalis.GuardClauses;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.Services;
-using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.Infrastructure.Data.Queries;
-using Clean.Architecture.Infrastructure.Email;
-using Clean.Architecture.UseCases.Contributors.List;
+using Clean.Cinder.Core.Interfaces;
+using Clean.Cinder.Core.Services;
+using Clean.Cinder.Infrastructure.Data;
+using Clean.Cinder.Infrastructure.Data.Queries;
+using Clean.Cinder.Infrastructure.Email;
+using Clean.Cinder.UseCases.Contributors.List;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.Infrastructure;
+namespace Clean.Cinder.Infrastructure;
 public static class InfrastructureServiceExtensions
 {
   public static IServiceCollection AddInfrastructureServices(

@@ -1,10 +1,10 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.UseCases.Contributors;
-using Clean.Architecture.UseCases.Contributors.List;
+using Clean.Cinder.UseCases.Contributors;
+using Clean.Cinder.UseCases.Contributors.List;
 using FastEndpoints;
 using MediatR;
 
-namespace Clean.Architecture.Web.Contributors;
+namespace Clean.Cinder.Web.Contributors;
 
 /// <summary>
 /// List all Contributors

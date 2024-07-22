@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Clean.Architecture.Infrastructure.Data;
+namespace Clean.Cinder.Infrastructure.Data;
 
 public static class AppDbContextExtensions
 {

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using MediatR;
 
-namespace Clean.Architecture.UnitTests;
+namespace Clean.Cinder.UnitTests;
 
 public class NoOpMediator : IMediator
 {

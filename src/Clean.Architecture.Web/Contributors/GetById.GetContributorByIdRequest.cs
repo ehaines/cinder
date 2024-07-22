@@ -1,4 +1,4 @@
-﻿namespace Clean.Architecture.Web.Contributors;
+﻿namespace Clean.Cinder.Web.Contributors;
 
 public class GetContributorByIdRequest
 {

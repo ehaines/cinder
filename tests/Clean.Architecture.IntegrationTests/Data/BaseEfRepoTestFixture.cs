@@ -1,11 +1,11 @@
 ﻿using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Infrastructure.Data;
+using Clean.Cinder.Core.ContributorAggregate;
+using Clean.Cinder.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
 
-namespace Clean.Architecture.IntegrationTests.Data;
+namespace Clean.Cinder.IntegrationTests.Data;
 
 public abstract class BaseEfRepoTestFixture
 {

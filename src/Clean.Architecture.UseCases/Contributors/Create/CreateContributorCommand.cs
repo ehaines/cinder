@@ -1,6 +1,6 @@
 ﻿using Ardalis.Result;
 
-namespace Clean.Architecture.UseCases.Contributors.Create;
+namespace Clean.Cinder.UseCases.Contributors.Create;
 
 /// <summary>
 /// Create a new Contributor.

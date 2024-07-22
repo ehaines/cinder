@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.UseCases.Contributors;
-using Clean.Architecture.UseCases.Contributors.List;
+﻿using Clean.Cinder.UseCases.Contributors;
+using Clean.Cinder.UseCases.Contributors.List;
 using Microsoft.EntityFrameworkCore;
 
-namespace Clean.Architecture.Infrastructure.Data.Queries;
+namespace Clean.Cinder.Infrastructure.Data.Queries;
 
 public class ListContributorsQueryService(AppDbContext _db) : IListContributorsQueryService
 {

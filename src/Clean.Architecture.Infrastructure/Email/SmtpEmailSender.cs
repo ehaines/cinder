@@ -1,9 +1,9 @@
 ﻿using System.Net.Mail;
-using Clean.Architecture.Core.Interfaces;
+using Clean.Cinder.Core.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Clean.Architecture.Infrastructure.Email;
+namespace Clean.Cinder.Infrastructure.Email;
 
 /// <summary>
 /// MimeKit is recommended over this now:

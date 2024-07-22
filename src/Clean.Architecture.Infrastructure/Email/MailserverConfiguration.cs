@@ -1,4 +1,4 @@
-﻿namespace Clean.Architecture.Infrastructure.Email;
+﻿namespace Clean.Cinder.Infrastructure.Email;
 
 public class MailserverConfiguration()
 {

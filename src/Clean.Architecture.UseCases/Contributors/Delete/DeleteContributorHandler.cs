@@ -1,8 +1,8 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.Interfaces;
+using Clean.Cinder.Core.Interfaces;
 
-namespace Clean.Architecture.UseCases.Contributors.Delete;
+namespace Clean.Cinder.UseCases.Contributors.Delete;
 
 public class DeleteContributorHandler(IDeleteContributorService _deleteContributorService)
   : ICommandHandler<DeleteContributorCommand, Result>

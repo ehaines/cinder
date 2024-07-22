@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.UseCases.Contributors.Create;
+﻿using Clean.Cinder.UseCases.Contributors.Create;
 using FastEndpoints;
 using MediatR;
 
-namespace Clean.Architecture.Web.Contributors;
+namespace Clean.Cinder.Web.Contributors;
 
 /// <summary>
 /// Create a new Contributor

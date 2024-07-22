@@ -1,9 +1,9 @@
 ﻿using Ardalis.HttpClientTestExtensions;
-using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.Web.Contributors;
+using Clean.Cinder.Infrastructure.Data;
+using Clean.Cinder.Web.Contributors;
 using Xunit;
 
-namespace Clean.Architecture.FunctionalTests.ApiEndpoints;
+namespace Clean.Cinder.FunctionalTests.ApiEndpoints;
 
 [Collection("Sequential")]
 public class ContributorList(CustomWebApplicationFactory<Program> factory) : IClassFixture<CustomWebApplicationFactory<Program>>

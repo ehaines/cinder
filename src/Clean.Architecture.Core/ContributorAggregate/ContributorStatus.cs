@@ -1,6 +1,6 @@
 ﻿using Ardalis.SmartEnum;
 
-namespace Clean.Architecture.Core.ContributorAggregate;
+namespace Clean.Cinder.Core.ContributorAggregate;
 
 public class ContributorStatus : SmartEnum<ContributorStatus>
 {

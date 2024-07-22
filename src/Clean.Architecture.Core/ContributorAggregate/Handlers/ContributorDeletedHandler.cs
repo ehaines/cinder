@@ -1,9 +1,9 @@
-﻿using Clean.Architecture.Core.ContributorAggregate.Events;
-using Clean.Architecture.Core.Interfaces;
+﻿using Clean.Cinder.Core.ContributorAggregate.Events;
+using Clean.Cinder.Core.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.Core.ContributorAggregate.Handlers;
+namespace Clean.Cinder.Core.ContributorAggregate.Handlers;
 
 /// <summary>
 /// NOTE: Internal because ContributorDeleted is also marked as internal.

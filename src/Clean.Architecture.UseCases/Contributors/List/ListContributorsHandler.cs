@@ -1,7 +1,7 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
 
-namespace Clean.Architecture.UseCases.Contributors.List;
+namespace Clean.Cinder.UseCases.Contributors.List;
 
 public class ListContributorsHandler(IListContributorsQueryService _query)
   : IQueryHandler<ListContributorsQuery, Result<IEnumerable<ContributorDTO>>>

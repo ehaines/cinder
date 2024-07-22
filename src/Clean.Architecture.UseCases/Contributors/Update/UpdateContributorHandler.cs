@@ -1,8 +1,8 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
+using Clean.Cinder.Core.ContributorAggregate;
 
-namespace Clean.Architecture.UseCases.Contributors.Update;
+namespace Clean.Cinder.UseCases.Contributors.Update;
 
 public class UpdateContributorHandler(IRepository<Contributor> _repository)
   : ICommandHandler<UpdateContributorCommand, Result<ContributorDTO>>

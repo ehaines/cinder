@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.Interfaces;
+﻿using Clean.Cinder.Core.Interfaces;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.Infrastructure.Email;
+namespace Clean.Cinder.Infrastructure.Email;
 
 public class FakeEmailSender(ILogger<FakeEmailSender> _logger) : IEmailSender
 {

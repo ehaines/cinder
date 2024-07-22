@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
+using Clean.Cinder.Core.ContributorAggregate;
 using Microsoft.EntityFrameworkCore;
 
-namespace Clean.Architecture.Infrastructure.Data;
+namespace Clean.Cinder.Infrastructure.Data;
 public class AppDbContext : DbContext
 {
   private readonly IDomainEventDispatcher? _dispatcher;

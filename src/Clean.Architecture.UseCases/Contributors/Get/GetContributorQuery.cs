@@ -1,6 +1,6 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
 
-namespace Clean.Architecture.UseCases.Contributors.Get;
+namespace Clean.Cinder.UseCases.Contributors.Get;
 
 public record GetContributorQuery(int ContributorId) : IQuery<Result<ContributorDTO>>;

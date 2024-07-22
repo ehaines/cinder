@@ -1,12 +1,12 @@
 ﻿using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Core.Services;
+using Clean.Cinder.Core.ContributorAggregate;
+using Clean.Cinder.Core.Services;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.Services;
+namespace Clean.Cinder.UnitTests.Core.Services;
 
 public class DeleteContributorService_DeleteContributor
 {

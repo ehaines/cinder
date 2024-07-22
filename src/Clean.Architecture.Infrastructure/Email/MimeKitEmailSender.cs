@@ -1,10 +1,10 @@
-﻿using Clean.Architecture.Core.Interfaces;
+﻿using Clean.Cinder.Core.Interfaces;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MimeKit;
 
-namespace Clean.Architecture.Infrastructure.Email;
+namespace Clean.Cinder.Infrastructure.Email;
 
 public class MimeKitEmailSender : IEmailSender
 {

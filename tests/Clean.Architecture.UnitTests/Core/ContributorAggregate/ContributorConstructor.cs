@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ContributorAggregate;
+﻿using Clean.Cinder.Core.ContributorAggregate;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.ContributorAggregate;
+namespace Clean.Cinder.UnitTests.Core.ContributorAggregate;
 
 public class ContributorConstructor
 {

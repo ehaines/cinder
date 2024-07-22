@@ -1,11 +1,11 @@
-﻿using Clean.Architecture.Infrastructure.Data;
+﻿using Clean.Cinder.Infrastructure.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.FunctionalTests;
+namespace Clean.Cinder.FunctionalTests;
 
 public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
 {

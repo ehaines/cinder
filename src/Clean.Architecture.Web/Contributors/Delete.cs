@@ -1,9 +1,9 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.UseCases.Contributors.Delete;
+using Clean.Cinder.UseCases.Contributors.Delete;
 using FastEndpoints;
 using MediatR;
 
-namespace Clean.Architecture.Web.Contributors;
+namespace Clean.Cinder.Web.Contributors;
 
 /// <summary>
 /// Delete a Contributor.

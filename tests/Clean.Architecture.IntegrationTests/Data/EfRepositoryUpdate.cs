@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ContributorAggregate;
+﻿using Clean.Cinder.Core.ContributorAggregate;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace Clean.Architecture.IntegrationTests.Data;
+namespace Clean.Cinder.IntegrationTests.Data;
 
 public class EfRepositoryUpdate : BaseEfRepoTestFixture
 {

@@ -1,4 +1,4 @@
-﻿namespace Clean.Architecture.Infrastructure.Data.Config;
+﻿namespace Clean.Cinder.Infrastructure.Data.Config;
 
 public static class DataSchemaConstants
 {

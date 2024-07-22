@@ -1,9 +1,9 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Core.ContributorAggregate.Specifications;
+using Clean.Cinder.Core.ContributorAggregate;
+using Clean.Cinder.Core.ContributorAggregate.Specifications;
 
-namespace Clean.Architecture.UseCases.Contributors.Get;
+namespace Clean.Cinder.UseCases.Contributors.Get;
 
 /// <summary>
 /// Queries don't necessarily need to use repository methods, but they can if it's convenient

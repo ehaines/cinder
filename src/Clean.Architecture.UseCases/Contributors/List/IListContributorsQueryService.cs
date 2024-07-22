@@ -1,4 +1,4 @@
-﻿namespace Clean.Architecture.UseCases.Contributors.List;
+﻿namespace Clean.Cinder.UseCases.Contributors.List;
 
 /// <summary>
 /// Represents a service that will actually fetch the necessary data

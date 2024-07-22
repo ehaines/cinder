@@ -1,9 +1,9 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.UseCases.Contributors.Get;
+using Clean.Cinder.UseCases.Contributors.Get;
 using FastEndpoints;
 using MediatR;
 
-namespace Clean.Architecture.Web.Contributors;
+namespace Clean.Cinder.Web.Contributors;
 
 /// <summary>
 /// Get a Contributor by integer ID.

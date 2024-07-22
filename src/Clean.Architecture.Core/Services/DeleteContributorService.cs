@@ -1,12 +1,12 @@
 ﻿using Ardalis.Result;
 using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Core.ContributorAggregate.Events;
-using Clean.Architecture.Core.Interfaces;
+using Clean.Cinder.Core.ContributorAggregate;
+using Clean.Cinder.Core.ContributorAggregate.Events;
+using Clean.Cinder.Core.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.Core.Services;
+namespace Clean.Cinder.Core.Services;
 
 /// <summary>
 /// This is here mainly so there's an example of a domain service

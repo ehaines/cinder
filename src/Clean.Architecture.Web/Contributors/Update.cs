@@ -1,10 +1,10 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.UseCases.Contributors.Get;
-using Clean.Architecture.UseCases.Contributors.Update;
+using Clean.Cinder.UseCases.Contributors.Get;
+using Clean.Cinder.UseCases.Contributors.Update;
 using FastEndpoints;
 using MediatR;
 
-namespace Clean.Architecture.Web.Contributors;
+namespace Clean.Cinder.Web.Contributors;
 
 /// <summary>
 /// Update an existing Contributor.

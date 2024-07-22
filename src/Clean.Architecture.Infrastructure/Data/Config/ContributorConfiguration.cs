@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ContributorAggregate;
+﻿using Clean.Cinder.Core.ContributorAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Clean.Architecture.Infrastructure.Data.Config;
+namespace Clean.Cinder.Infrastructure.Data.Config;
 
 public class ContributorConfiguration : IEntityTypeConfiguration<Contributor>
 {
