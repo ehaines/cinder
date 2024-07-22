@@ -16,7 +16,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Core\Clean.Architecture.Core.csproj" />
-    <ProjectReference Include="..\Clean.Architecture.UseCases\Clean.Architecture.UseCases.csproj" />
+    <ProjectReference Include="..\Clean.Cinder.Core\Clean.Cinder.Core.csproj" />
+    <ProjectReference Include="..\Clean.Cinder.UseCases\Clean.Cinder.UseCases.csproj" />
   </ItemGroup>
 </Project>

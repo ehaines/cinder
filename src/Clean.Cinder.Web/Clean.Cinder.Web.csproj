@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Infrastructure\Clean.Architecture.Infrastructure.csproj" />
-    <ProjectReference Include="..\Clean.Architecture.UseCases\Clean.Architecture.UseCases.csproj" />
+    <ProjectReference Include="..\Clean.Cinder.Infrastructure\Clean.Cinder.Infrastructure.csproj" />
+    <ProjectReference Include="..\Clean.Cinder.UseCases\Clean.Cinder.UseCases.csproj" />
   </ItemGroup>
 
 </Project>

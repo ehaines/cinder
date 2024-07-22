@@ -7,7 +7,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Core\Clean.Architecture.Core.csproj" />
+    <ProjectReference Include="..\Clean.Cinder.Core\Clean.Cinder.Core.csproj" />
   </ItemGroup>
 
 </Project>
