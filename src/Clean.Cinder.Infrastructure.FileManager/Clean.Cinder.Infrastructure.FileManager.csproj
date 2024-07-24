@@ -9,7 +9,7 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\sketchmates.Application\sketchmates.Application.csproj" />
+		<ProjectReference Include="..\Clean.Cinder.Core\Clean.Cinder.Core.csproj" />
 	</ItemGroup>
 
 </Project>
