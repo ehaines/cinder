@@ -1,4 +1,4 @@
-namespace sketchmates.Infrastructure.Identity.Settings
+﻿namespace Clean.Cinder.Infrastructure.Identity.Settings
 {
     public class IdentitySettings
     {

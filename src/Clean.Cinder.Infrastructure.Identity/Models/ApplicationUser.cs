@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using System;
 
-namespace sketchmates.Infrastructure.Identity.Models
+namespace Clean.Cinder.Infrastructure.Identity.Models
 {
     public class ApplicationUser : IdentityUser<Guid>
     {

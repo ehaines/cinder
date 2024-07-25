@@ -1,10 +1,10 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using sketchmates.Infrastructure.Identity.Models;
+using Clean.Cinder.Infrastructure.Identity.Models;
 using System;
 
-namespace sketchmates.Infrastructure.Identity.Contexts
+namespace Clean.Cinder.Infrastructure.Identity.Contexts
 {
     public class IdentityContext(DbContextOptions<IdentityContext> options) : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>(options)
     {

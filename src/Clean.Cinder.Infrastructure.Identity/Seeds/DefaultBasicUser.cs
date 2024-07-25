@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using sketchmates.Infrastructure.Identity.Models;
+using Clean.Cinder.Infrastructure.Identity.Models;
 using System.Threading.Tasks;
 
-namespace sketchmates.Infrastructure.Identity.Seeds
+namespace Clean.Cinder.Infrastructure.Identity.Seeds
 {
     public static class DefaultBasicUser
     {

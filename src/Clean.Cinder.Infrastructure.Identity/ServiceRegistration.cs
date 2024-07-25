@@ -1,22 +1,22 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using sketchmates.Application.Interfaces.UserInterfaces;
-using sketchmates.Application.Wrappers;
-using sketchmates.Infrastructure.Identity.Contexts;
-using sketchmates.Infrastructure.Identity.Models;
-using sketchmates.Infrastructure.Identity.Services;
-using sketchmates.Infrastructure.Identity.Settings;
+using Clean.Cinder.Core.Interfaces.UserInterfaces;
+using Clean.Cinder.Wrappers;
+using Clean.Cinder.Infrastructure.Identity.Contexts;
+using Clean.Cinder.Infrastructure.Identity.Models;
+using Clean.Cinder.Infrastructure.Identity.Services;
+using Clean.Cinder.Infrastructure.Identity.Settings;
 using System;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace sketchmates.Infrastructure.Identity
+namespace Clean.Cinder.Infrastructure.Identity
 {
     public static class ServiceRegistration
     {

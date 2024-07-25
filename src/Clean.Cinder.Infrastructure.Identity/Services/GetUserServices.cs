@@ -1,14 +1,14 @@
-using Microsoft.EntityFrameworkCore;
-using sketchmates.Application.DTOs;
-using sketchmates.Application.DTOs.Account.Requests;
-using sketchmates.Application.DTOs.Account.Responses;
-using sketchmates.Application.Interfaces.UserInterfaces;
-using sketchmates.Application.Wrappers;
-using sketchmates.Infrastructure.Identity.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using Clean.Cinder.Core.DTOs;
+using Clean.Cinder.Core.DTOs.Account.Requests;
+using Clean.Cinder.Core.DTOs.Account.Responses;
+using Clean.Cinder.Core.Interfaces.UserInterfaces;
+using Clean.Cinder.Core.Wrappers;
+using Clean.Cinder.Infrastructure.Identity.Contexts;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace sketchmates.Infrastructure.Identity.Services
+namespace Clean.Cinder.Infrastructure.Identity.Services
 {
     public class GetUserServices(IdentityContext identityContext) : IGetUserServices
     {
