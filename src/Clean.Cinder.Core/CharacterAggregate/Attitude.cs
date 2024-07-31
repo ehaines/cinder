@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardalis.SharedKernel;
 
-namespace Clean.Cinder.Core;
+namespace Clean.Cinder.Core.CharacterAggregate;
 public readonly record struct Attitude
 {
-  public readonly string ID { get;}
-  public readonly string Name { get;}
+  public readonly string ID { get; }
+  public readonly string Name { get; }
 }
