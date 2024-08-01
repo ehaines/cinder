@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardalis.SharedKernel;
 
-namespace Clean.Cinder.Core;
+namespace Clean.Cinder.Core.PlayerAggregate;
 public class Player : EntityBase<Guid>, IAggregateRoot
 {
   public required string UserName { get; set; }

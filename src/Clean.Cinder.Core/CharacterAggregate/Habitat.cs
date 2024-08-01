@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardalis.SharedKernel;
 
-namespace Clean.Cinder.Core;
+namespace Clean.Cinder.Core.CharacterAggregate;
 public readonly record struct Habitat
 {
   public readonly string ID { get; }

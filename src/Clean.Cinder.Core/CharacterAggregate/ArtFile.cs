@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardalis.SharedKernel;
 
-namespace Clean.Cinder.Core;
+namespace Clean.Cinder.Core.CharacterAggregate;
 public class ArtFile : EntityBase<Guid>, IAggregateRoot
 {
   public required string ArtType { get; set; }
@@ -20,5 +20,5 @@ public class ArtFile : EntityBase<Guid>, IAggregateRoot
 
   public string? FileExtension { get; set; }
 
-  public required Creature Creature { get; set; }
+  public required Character Creature { get; set; }
 }
